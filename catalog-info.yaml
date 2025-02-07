@@ -21,8 +21,6 @@ metadata:
     argocd/app-name: jokl-app-prod
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo.kubrix.cloud/project/sx-cnp-oss-jokl-app-kargo-project"
-    datadoghq.com/dashboard-url: "https://p.datadoghq.eu/sb/714e0390-e2df-11ef-967e-8aa76db6ad57-c61d536c34fa50ba93a51a81df7a5646"
-    datadoghq.com/graph-token: "7c0d16066197b59d4d7afca821c6122954a43819072fbe2a8f43df263c1d8586"
     grafana/dashboard-selector: "(tags @> 'suXess')"
     grafana/overview-dashboard: "https://grafana.demo.kubrix.cloud/d/k8s_views_ns/kubernetes-views-namespaces?orgId=1&refresh=30s&var-datasource=default&var-cluster=kubrix-demo&var-namespace=sx-cnp-oss-jokl-app-prod&var-resolution=30s&var-created_by=All"
 spec:
@@ -105,6 +103,8 @@ metadata:
     argocd/app-name: jokl-app-test
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo.kubrix.cloud/project/sx-cnp-oss-jokl-app-kargo-project"
+    datadoghq.com/dashboard-url: "https://p.datadoghq.eu/sb/714e0390-e2df-11ef-967e-8aa76db6ad57-c61d536c34fa50ba93a51a81df7a5646"
+    datadoghq.com/graph-token: "7c0d16066197b59d4d7afca821c6122954a43819072fbe2a8f43df263c1d8586"
     grafana/dashboard-selector: "(tags @> 'suXess')"
     grafana/overview-dashboard: "https://grafana.demo.kubrix.cloud/d/k8s_views_ns/kubernetes-views-namespaces?orgId=1&refresh=30s&var-datasource=default&var-cluster=kubrix-demo&var-namespace=sx-cnp-oss-jokl-app-test&var-resolution=30s&var-created_by=All"
 spec:
