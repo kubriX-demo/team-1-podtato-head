@@ -1,12 +1,14 @@
-# applies to podtato-head-entry deployment only
+ingressSuffix: test.demo-ddog.kubrix.cloud
+
 ingress:
   className: nginx
   annotations:
     dns.gardener.cloud/class: garden
-    dns.gardener.cloud/dnsnames: sx-cnp-oss-jokl-app-test.demo.kubrix.cloud
+    dns.gardener.cloud/dnsnames: team-1-podtato-head-{{ .Values.ingressSuffix }}
     dns.gardener.cloud/ttl: "180"
+    # another comment from upstream should go to downstream
   hosts:
-    - host: sx-cnp-oss-jokl-app-test.demo.kubrix.cloud
+    - host: johnny-team-podtato-head-{{ .Values.ingressSuffix }}
       paths:
         - path: /
           pathType: ImplementationSpecific
