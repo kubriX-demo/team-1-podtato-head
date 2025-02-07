@@ -8,7 +8,7 @@ ingress:
     dns.gardener.cloud/ttl: "180"
     # another comment from upstream should go to downstream
   hosts:
-    - host: johnny-team-podtato-head-{{ .Values.ingressSuffix }}
+    - host: team-1-podtato-head-{{ .Values.ingressSuffix }}
       paths:
         - path: /
           pathType: ImplementationSpecific
