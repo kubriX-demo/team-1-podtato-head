@@ -20,7 +20,7 @@ metadata:
     argocd/app-name: podtato-datadog
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo-ddog.kubrix.cloud/project/sx-cnp-oss-jokl-app-kargo-project"
-    datadoghq.com/dashboard-url: "https://p.datadoghq.eu/sb/714e0390-e2df-11ef-967e-8aa76db6ad57-c61d536c34fa50ba93a51a81df7a5646"
+    datadoghq.com/dashboard-url: "https://p.datadoghq.eu/sb/d7b204ed-f38f-11ef-9296-be0cc9f2c79c-f9ab3823e95622bf1fd15a84064d187f"
     datadoghq.com/graph-token: "7c0d16066197b59d4d7afca821c6122954a43819072fbe2a8f43df263c1d8586"
 spec:
   type: service
